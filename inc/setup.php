@@ -29,10 +29,10 @@ function torro_devhub_setup() {
 	 * @param array $args Custom logo arguments.
 	 */
 	add_theme_support( 'custom-logo', apply_filters( 'torro_devhub_custom_logo_args', array(
-		'height'      => 250,
-		'width'       => 250,
+		'width'       => 200,
+		'height'      => 60,
 		'flex-width'  => true,
-		'flex-height' => true,
+		'header-text' => array( 'site-title', 'site-description' ),
 	) ) );
 
 	/**
@@ -43,12 +43,9 @@ function torro_devhub_setup() {
 	 * @param array $args Custom header arguments.
 	 */
 	add_theme_support( 'custom-header', apply_filters( 'torro_devhub_custom_header_args', array(
-		'default-image'          => '',
-		'default-text-color'     => '000000',
-		'width'                  => 1000,
-		'height'                 => 250,
-		'flex-height'            => true,
-		'wp-head-callback'       => 'torro_devhub_header_style',
+		'width'              => 1200,
+		'height'             => 300,
+		'header-text'        => false,
 	) ) );
 
 	// TODO: Include video header support.
@@ -179,34 +176,4 @@ function torro_devhub_get_footer_widget_area_count() {
 	 * @param int $count Footer widget area count.
 	 */
 	return apply_filters( 'torro_devhub_footer_widget_area_count', 3 );
-}
-
-/**
- * Styles the header image and text.
- *
- * @since 1.0.0
- */
-function torro_devhub_header_style() {
-	$header_text_color = get_header_textcolor();
-
-	if ( get_theme_support( 'custom-header', 'default-text-color' ) === $header_text_color ) {
-		return;
-	}
-
-	?>
-	<style type="text/css">
-	<?php if ( ! display_header_text() ) : ?>
-		.site-title,
-		.site-description {
-			position: absolute;
-			clip: rect(1px, 1px, 1px, 1px);
-		}
-	<?php else : ?>
-		.site-title a,
-		.site-description {
-			color: #<?php echo esc_attr( $header_text_color ); ?>;
-		}
-	<?php endif; ?>
-	</style>
-	<?php
 }
