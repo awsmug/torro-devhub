@@ -29,8 +29,8 @@ function torro_devhub_setup() {
 	 * @param array $args Custom logo arguments.
 	 */
 	add_theme_support( 'custom-logo', apply_filters( 'torro_devhub_custom_logo_args', array(
-		'width'       => 200,
-		'height'      => 60,
+		'width'       => 511,
+		'height'      => 70,
 		'flex-width'  => true,
 		'header-text' => array( 'site-title', 'site-description' ),
 	) ) );
