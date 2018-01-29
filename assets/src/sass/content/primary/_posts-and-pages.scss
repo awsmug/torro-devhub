@@ -1,0 +1,49 @@
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 $spacing_vertical-big;
+}
+
+.entry-header,
+.entry-content,
+.entry-footer {
+	margin: 0 0 $spacing_vertical;
+
+	body.no-sidebar & {
+		margin: 0 auto $spacing_vertical;
+		max-width: $site_maxwidth-text;
+	}
+}
+
+.entry-meta {
+	margin-bottom: $spacing_vertical;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 $spacing_vertical;
+}
+
+.wp-post-image {
+	@include center-block();
+}
+
+.attachment img {
+	display: block;
+	width: 100%;
+}
+
+.wp-audio-shortcode,
+.wp-video-shortcode {
+	display: block;
+
+	.mejs-controls .mejs-time-rail .mejs-time-current {
+		background: $color__background-media-time;
+	}
+}

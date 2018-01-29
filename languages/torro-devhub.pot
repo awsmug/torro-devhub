@@ -1,0 +1,1381 @@
+# Copyright (C) 2018 torro-devhub
+# This file is distributed under the same license as the torro-devhub package.
+msgid ""
+msgstr ""
+"Project-Id-Version: torro-devhub\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: Torro DevHub 1.0.0\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"report-msgid-bugs-to: https://translate.wordpress.org/projects/wp-themes/torro-devhub\n"
+"x-generator: gulp-wp-pot\n"
+"x-poedit-basepath: .\n"
+"x-poedit-bookmars: \n"
+"x-poedit-country: UNITED STATES\n"
+"x-poedit-keywordslist: __;_e;_x:1,2c;_ex:1,2c;_n:1,2; _nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__; esc_html__;esc_attr_e; esc_html_e;esc_attr_x:1,2c; esc_html_x:1,2c;\n"
+"x-poedit-language: English\n"
+"x-poedit-searchpath-0: .\n"
+"x-poedit-sourcecharset: uft-8\n"
+"x-textdomain-support: yes\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: 404.php:26
+msgid "Most Used Categories"
+msgstr ""
+
+#: comments.php:29, inc/assets.php:48
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:55
+msgid "Comments are closed."
+msgstr ""
+
+#: header.php:23
+msgid "Skip to content"
+msgstr ""
+
+#: search.php:22
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:15
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:17
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:18
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:27, inc/setup.php:122
+msgid "Primary Sidebar"
+msgstr ""
+
+#: inc/assets.php:29
+msgid "Expand child menu"
+msgstr ""
+
+#: inc/assets.php:30
+msgid "Collapse child menu"
+msgstr ""
+
+#: inc/assets.php:38
+msgid "Processing..."
+msgstr ""
+
+#: inc/assets.php:39
+msgid "Bad response code."
+msgstr ""
+
+#: inc/assets.php:40
+msgid "Invalid JSON response."
+msgstr ""
+
+#: inc/assets.php:42
+msgid "Your comment was either a duplicate or you are posting too rapidly. <a href=\"%s\">Edit your comment</a>"
+msgstr ""
+
+#: inc/assets.php:43
+msgid "There were errors in submitting your comment; complete the missing fields and try again!"
+msgstr ""
+
+#: inc/assets.php:44
+msgid "This email address appears to be invalid."
+msgstr ""
+
+#: inc/assets.php:45
+msgid "This is a required field."
+msgstr ""
+
+#: inc/assets.php:108
+msgid "Thanks for commenting! Your comment has been sent for moderation and should be approved soon."
+msgstr ""
+
+#. translators: %s: comment URL
+#: inc/assets.php:111
+msgid "Thanks for commenting! Your comment has been approved. <a href=\"%s\">Read your comment</a>"
+msgstr ""
+
+#: inc/assets.php:124
+msgid "Your comment has been marked as spam."
+msgstr ""
+
+#: inc/assets.php:131
+msgid "An unknown error occurred while trying to post your comment."
+msgstr ""
+
+#. translators: %s: WordPress version number
+#: inc/back-compat.php:37, inc/back-compat.php:50, inc/back-compat.php:66
+msgid "Torro DevHub requires at least WordPress version 4.7. You are running version %s. Please upgrade and try again."
+msgstr ""
+
+#: inc/customizer.php:34
+msgid "Sidebars"
+msgstr ""
+
+#: inc/customizer.php:46
+msgid "Sidebar Mode"
+msgstr ""
+
+#: inc/customizer.php:47
+msgid "Specify if and how the sidebar should be displayed."
+msgstr ""
+
+#: inc/customizer.php:59
+msgid "Sidebar Size"
+msgstr ""
+
+#: inc/customizer.php:60
+msgid "Specify the width of the sidebar."
+msgstr ""
+
+#: inc/customizer.php:71
+msgid "Enable Blog Sidebar?"
+msgstr ""
+
+#: inc/customizer.php:72
+msgid "If you enable the blog sidebar, it will be shown beside your blog and single post content instead of the primary sidebar."
+msgstr ""
+
+#: inc/customizer.php:85
+msgid "Content Types"
+msgstr ""
+
+#: inc/customizer.php:102
+msgid "Show Date?"
+msgstr ""
+
+#: inc/customizer.php:119
+msgid "Show Author Name?"
+msgstr ""
+
+#: inc/customizer.php:139
+msgid "Show %s?"
+msgstr ""
+
+#: inc/customizer.php:162
+msgctxt "taxonomy"
+msgid "Show %s?"
+msgstr ""
+
+#: inc/customizer.php:180
+msgid "Show Author Box?"
+msgstr ""
+
+#: inc/customizer.php:225, inc/customizer.php:259
+msgid "Invalid choice."
+msgstr ""
+
+#: inc/customizer.php:240
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer.php:241
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer.php:242
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer.php:274
+msgid "Small"
+msgstr ""
+
+#: inc/customizer.php:275
+msgid "Medium"
+msgstr ""
+
+#: inc/customizer.php:276
+msgid "Large"
+msgstr ""
+
+#: inc/customizer.php:389
+msgid "This page doesn&#8217;t support the blog sidebar. Navigate to the blog page or another page that supports it."
+msgstr ""
+
+#: inc/setup.php:107, template-parts/header/site-navigation.php:17
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/setup.php:108
+msgid "Primary Menu (Distraction-Free)"
+msgstr ""
+
+#: inc/setup.php:109, template-parts/footer/social-navigation.php:15
+msgid "Social Links Menu"
+msgstr ""
+
+#: inc/setup.php:110, template-parts/footer/footer-navigation.php:15
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/setup.php:124
+msgid "Add widgets here to appear in the sidebar for your main content."
+msgstr ""
+
+#: inc/setup.php:131
+msgid "Add widgets here to appear in the sidebar for blog posts and archive pages."
+msgstr ""
+
+#: inc/setup.php:134
+msgid "You need to enable the sidebar in the Customizer first."
+msgstr ""
+
+#: inc/setup.php:138
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/setup.php:152
+msgid "Footer %s"
+msgstr ""
+
+#: inc/setup.php:154
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: inc/template-functions.php:479
+msgctxt "attachment metadata"
+msgid "Dimensions"
+msgstr ""
+
+#: inc/template-functions.php:480
+msgctxt "attachment metadata"
+msgid "Focal Length"
+msgstr ""
+
+#: inc/template-functions.php:481
+msgctxt "attachment metadata"
+msgid "Shutter Speed"
+msgstr ""
+
+#: inc/template-functions.php:482
+msgctxt "attachment metadata"
+msgid "Aperture"
+msgstr ""
+
+#: inc/template-functions.php:483
+msgctxt "attachment metadata"
+msgid "ISO"
+msgstr ""
+
+#: inc/template-functions.php:484
+msgctxt "attachment metadata"
+msgid "Run Time"
+msgstr ""
+
+#: inc/template-functions.php:485
+msgctxt "attachment metadata"
+msgid "Artist"
+msgstr ""
+
+#: inc/template-functions.php:486
+msgctxt "attachment metadata"
+msgid "Album"
+msgstr ""
+
+#: inc/template-functions.php:487
+msgctxt "attachment metadata"
+msgid "File Format"
+msgstr ""
+
+#: inc/template-functions.php:488
+msgctxt "attachment metadata"
+msgid "File Name"
+msgstr ""
+
+#: inc/template-functions.php:489
+msgctxt "attachment metadata"
+msgid "File Size"
+msgstr ""
+
+#: inc/template-hooks.php:87, template-parts/content/content-post.php:21, template-parts/content/content.php:21
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: templates/account.php:2
+msgid "Account Page"
+msgstr ""
+
+#: templates/account.php:28
+msgid "You must be logged in to view the content of this page."
+msgstr ""
+
+#: templates/account.php:34, templates/login.php:38
+msgid "Register"
+msgstr ""
+
+#: templates/account.php:37, templates/login.php:41
+msgid "Lost your password?"
+msgstr ""
+
+#: templates/distraction-free.php:2
+msgid "Distraction Free Page"
+msgstr ""
+
+#: templates/full-width.php:2
+msgid "Full Width Page"
+msgstr ""
+
+#: templates/login.php:2
+msgid "Login Page"
+msgstr ""
+
+#: templates/login.php:26
+msgid "You are now logged out."
+msgstr ""
+
+#: templates/login.php:49
+msgid "Logout"
+msgstr ""
+
+#: inc/devhub/customizer.php:19
+msgid "DevHub"
+msgstr ""
+
+#: inc/devhub/customizer.php:29
+msgid "Use URL Prefix for Reference?"
+msgstr ""
+
+#: inc/devhub/customizer.php:31
+msgid "If this checkbox is enabled, a &#8220;%s&#8221; prefix is added to all DevHub reference URLs."
+msgstr ""
+
+#: inc/devhub/customizer.php:31, inc/devhub/definitions.php:77, inc/devhub/definitions.php:345, inc/devhub/definitions.php:475
+msgctxt "rewrite slug"
+msgid "reference"
+msgstr ""
+
+#: inc/devhub/customizer.php:41
+msgid "Root Namespace"
+msgstr ""
+
+#: inc/devhub/customizer.php:42
+msgid "If the source code was parsed with a root namespace to exclude, enter that namespace here."
+msgstr ""
+
+#: inc/devhub/customizer.php:52
+msgid "GitHub Repository"
+msgstr ""
+
+#: inc/devhub/customizer.php:53
+msgid "Enter the GitHub repository for the source code, in <code>vendor/project</code> format."
+msgstr ""
+
+#: inc/devhub/customizer.php:63
+msgid "GitHub Root Directory"
+msgstr ""
+
+#: inc/devhub/customizer.php:64
+msgid "If the source code was not generated from the entire GitHub repository, enter the name of the relative directory which was parsed."
+msgstr ""
+
+#: inc/devhub/customizer.php:74
+msgid "Project Version"
+msgstr ""
+
+#: inc/devhub/customizer.php:75
+msgid "Enter the project version for the source code. A tag of the same version should exist in the GitHub repository provided above."
+msgstr ""
+
+#: inc/devhub/definitions.php:50, inc/devhub/definitions.php:86
+msgctxt "post type general name"
+msgid "Classes"
+msgstr ""
+
+#: inc/devhub/definitions.php:51, inc/devhub/definitions.php:120
+msgctxt "post type general name"
+msgid "Traits"
+msgstr ""
+
+#: inc/devhub/definitions.php:52, inc/devhub/definitions.php:154
+msgctxt "post type general name"
+msgid "Interfaces"
+msgstr ""
+
+#: inc/devhub/definitions.php:53, inc/devhub/definitions.php:185
+msgctxt "post type general name"
+msgid "Functions"
+msgstr ""
+
+#: inc/devhub/definitions.php:54, inc/devhub/definitions.php:216
+msgctxt "post type general name"
+msgid "Methods"
+msgstr ""
+
+#: inc/devhub/definitions.php:55, inc/devhub/definitions.php:247
+msgctxt "post type general name"
+msgid "Hooks"
+msgstr ""
+
+#: inc/devhub/definitions.php:82, inc/devhub/definitions.php:83, inc/devhub/definitions.php:108, inc/devhub/definitions.php:112, inc/devhub/definitions.php:461
+msgctxt "rewrite slug"
+msgid "classes"
+msgstr ""
+
+#: inc/devhub/definitions.php:87
+msgctxt "post type singular name"
+msgid "Class"
+msgstr ""
+
+#: inc/devhub/definitions.php:88
+msgctxt "class"
+msgid "Add New"
+msgstr ""
+
+#: inc/devhub/definitions.php:89
+msgid "Add New Class"
+msgstr ""
+
+#: inc/devhub/definitions.php:90
+msgid "Edit Class"
+msgstr ""
+
+#: inc/devhub/definitions.php:91
+msgid "New Class"
+msgstr ""
+
+#: inc/devhub/definitions.php:92
+msgid "View Class"
+msgstr ""
+
+#: inc/devhub/definitions.php:93
+msgid "View Classes"
+msgstr ""
+
+#: inc/devhub/definitions.php:94
+msgid "Search Classes"
+msgstr ""
+
+#: inc/devhub/definitions.php:95
+msgid "No classes found."
+msgstr ""
+
+#: inc/devhub/definitions.php:96
+msgid "No classes found in Trash."
+msgstr ""
+
+#: inc/devhub/definitions.php:97
+msgid "Parent Class:"
+msgstr ""
+
+#: inc/devhub/definitions.php:98
+msgid "All Classes"
+msgstr ""
+
+#: inc/devhub/definitions.php:99
+msgid "Class Archives"
+msgstr ""
+
+#: inc/devhub/definitions.php:100
+msgid "Class Attributes"
+msgstr ""
+
+#: inc/devhub/definitions.php:101
+msgid "Insert into class"
+msgstr ""
+
+#: inc/devhub/definitions.php:102
+msgid "Uploaded to this class"
+msgstr ""
+
+#: inc/devhub/definitions.php:103
+msgid "Filter classes list"
+msgstr ""
+
+#: inc/devhub/definitions.php:104
+msgid "Classes list navigation"
+msgstr ""
+
+#: inc/devhub/definitions.php:105
+msgid "Classes list"
+msgstr ""
+
+#: inc/devhub/definitions.php:116, inc/devhub/definitions.php:117, inc/devhub/definitions.php:142, inc/devhub/definitions.php:146, inc/devhub/definitions.php:464
+msgctxt "rewrite slug"
+msgid "traits"
+msgstr ""
+
+#: inc/devhub/definitions.php:121
+msgctxt "post type singular name"
+msgid "Trait"
+msgstr ""
+
+#: inc/devhub/definitions.php:122
+msgctxt "trait"
+msgid "Add New"
+msgstr ""
+
+#: inc/devhub/definitions.php:123
+msgid "Add New Trait"
+msgstr ""
+
+#: inc/devhub/definitions.php:124
+msgid "Edit Trait"
+msgstr ""
+
+#: inc/devhub/definitions.php:125
+msgid "New Trait"
+msgstr ""
+
+#: inc/devhub/definitions.php:126
+msgid "View Trait"
+msgstr ""
+
+#: inc/devhub/definitions.php:127
+msgid "View Traits"
+msgstr ""
+
+#: inc/devhub/definitions.php:128
+msgid "Search Traits"
+msgstr ""
+
+#: inc/devhub/definitions.php:129
+msgid "No traits found."
+msgstr ""
+
+#: inc/devhub/definitions.php:130
+msgid "No traits found in Trash."
+msgstr ""
+
+#: inc/devhub/definitions.php:131
+msgid "Parent Trait:"
+msgstr ""
+
+#: inc/devhub/definitions.php:132
+msgid "All Traits"
+msgstr ""
+
+#: inc/devhub/definitions.php:133
+msgid "Trait Archives"
+msgstr ""
+
+#: inc/devhub/definitions.php:134
+msgid "Trait Attributes"
+msgstr ""
+
+#: inc/devhub/definitions.php:135
+msgid "Insert into trait"
+msgstr ""
+
+#: inc/devhub/definitions.php:136
+msgid "Uploaded to this trait"
+msgstr ""
+
+#: inc/devhub/definitions.php:137
+msgid "Filter traits list"
+msgstr ""
+
+#: inc/devhub/definitions.php:138
+msgid "Traits list navigation"
+msgstr ""
+
+#: inc/devhub/definitions.php:139
+msgid "Traits list"
+msgstr ""
+
+#: inc/devhub/definitions.php:150, inc/devhub/definitions.php:151, inc/devhub/definitions.php:176, inc/devhub/definitions.php:180, inc/devhub/definitions.php:467
+msgctxt "rewrite slug"
+msgid "interfaces"
+msgstr ""
+
+#: inc/devhub/definitions.php:155
+msgctxt "post type singular name"
+msgid "Interface"
+msgstr ""
+
+#: inc/devhub/definitions.php:156
+msgctxt "interface"
+msgid "Add New"
+msgstr ""
+
+#: inc/devhub/definitions.php:157
+msgid "Add New Interface"
+msgstr ""
+
+#: inc/devhub/definitions.php:158
+msgid "Edit Interface"
+msgstr ""
+
+#: inc/devhub/definitions.php:159
+msgid "New Interface"
+msgstr ""
+
+#: inc/devhub/definitions.php:160
+msgid "View Interface"
+msgstr ""
+
+#: inc/devhub/definitions.php:161
+msgid "View Interfaces"
+msgstr ""
+
+#: inc/devhub/definitions.php:162
+msgid "Search Interfaces"
+msgstr ""
+
+#: inc/devhub/definitions.php:163
+msgid "No interfaces found."
+msgstr ""
+
+#: inc/devhub/definitions.php:164
+msgid "No interfaces found in Trash."
+msgstr ""
+
+#: inc/devhub/definitions.php:165
+msgid "Parent Interface:"
+msgstr ""
+
+#: inc/devhub/definitions.php:166
+msgid "All Interfaces"
+msgstr ""
+
+#: inc/devhub/definitions.php:167
+msgid "Interface Archives"
+msgstr ""
+
+#: inc/devhub/definitions.php:168
+msgid "Interface Attributes"
+msgstr ""
+
+#: inc/devhub/definitions.php:169
+msgid "Insert into interface"
+msgstr ""
+
+#: inc/devhub/definitions.php:170
+msgid "Uploaded to this interface"
+msgstr ""
+
+#: inc/devhub/definitions.php:171
+msgid "Filter interfaces list"
+msgstr ""
+
+#: inc/devhub/definitions.php:172
+msgid "Interfaces list navigation"
+msgstr ""
+
+#: inc/devhub/definitions.php:173
+msgid "Interfaces list"
+msgstr ""
+
+#: inc/devhub/definitions.php:186
+msgctxt "post type singular name"
+msgid "Function"
+msgstr ""
+
+#: inc/devhub/definitions.php:187
+msgctxt "function"
+msgid "Add New"
+msgstr ""
+
+#: inc/devhub/definitions.php:188
+msgid "Add New Function"
+msgstr ""
+
+#: inc/devhub/definitions.php:189
+msgid "Edit Function"
+msgstr ""
+
+#: inc/devhub/definitions.php:190
+msgid "New Function"
+msgstr ""
+
+#: inc/devhub/definitions.php:191
+msgid "View Function"
+msgstr ""
+
+#: inc/devhub/definitions.php:192
+msgid "View Functions"
+msgstr ""
+
+#: inc/devhub/definitions.php:193
+msgid "Search Functions"
+msgstr ""
+
+#: inc/devhub/definitions.php:194
+msgid "No functions found."
+msgstr ""
+
+#: inc/devhub/definitions.php:195
+msgid "No functions found in Trash."
+msgstr ""
+
+#: inc/devhub/definitions.php:196
+msgid "Parent Function:"
+msgstr ""
+
+#: inc/devhub/definitions.php:197
+msgid "All Functions"
+msgstr ""
+
+#: inc/devhub/definitions.php:198
+msgid "Function Archives"
+msgstr ""
+
+#: inc/devhub/definitions.php:199
+msgid "Function Attributes"
+msgstr ""
+
+#: inc/devhub/definitions.php:200
+msgid "Insert into function"
+msgstr ""
+
+#: inc/devhub/definitions.php:201
+msgid "Uploaded to this function"
+msgstr ""
+
+#: inc/devhub/definitions.php:202
+msgid "Filter functions list"
+msgstr ""
+
+#: inc/devhub/definitions.php:203
+msgid "Functions list navigation"
+msgstr ""
+
+#: inc/devhub/definitions.php:204
+msgid "Functions list"
+msgstr ""
+
+#: inc/devhub/definitions.php:207, inc/devhub/definitions.php:211
+msgctxt "rewrite slug"
+msgid "functions"
+msgstr ""
+
+#: inc/devhub/definitions.php:217
+msgctxt "post type singular name"
+msgid "Method"
+msgstr ""
+
+#: inc/devhub/definitions.php:218
+msgctxt "method"
+msgid "Add New"
+msgstr ""
+
+#: inc/devhub/definitions.php:219
+msgid "Add New Method"
+msgstr ""
+
+#: inc/devhub/definitions.php:220
+msgid "Edit Method"
+msgstr ""
+
+#: inc/devhub/definitions.php:221
+msgid "New Method"
+msgstr ""
+
+#: inc/devhub/definitions.php:222
+msgid "View Method"
+msgstr ""
+
+#: inc/devhub/definitions.php:223
+msgid "View Methods"
+msgstr ""
+
+#: inc/devhub/definitions.php:224
+msgid "Search Methods"
+msgstr ""
+
+#: inc/devhub/definitions.php:225
+msgid "No methods found."
+msgstr ""
+
+#: inc/devhub/definitions.php:226
+msgid "No methods found in Trash."
+msgstr ""
+
+#: inc/devhub/definitions.php:227
+msgid "Parent Method:"
+msgstr ""
+
+#: inc/devhub/definitions.php:228
+msgid "All Methods"
+msgstr ""
+
+#: inc/devhub/definitions.php:229
+msgid "Method Archives"
+msgstr ""
+
+#: inc/devhub/definitions.php:230
+msgid "Method Attributes"
+msgstr ""
+
+#: inc/devhub/definitions.php:231
+msgid "Insert into method"
+msgstr ""
+
+#: inc/devhub/definitions.php:232
+msgid "Uploaded to this method"
+msgstr ""
+
+#: inc/devhub/definitions.php:233
+msgid "Filter methods list"
+msgstr ""
+
+#: inc/devhub/definitions.php:234
+msgid "Methods list navigation"
+msgstr ""
+
+#: inc/devhub/definitions.php:235
+msgid "Methods list"
+msgstr ""
+
+#: inc/devhub/definitions.php:238, inc/devhub/definitions.php:242
+msgctxt "rewrite slug"
+msgid "methods"
+msgstr ""
+
+#: inc/devhub/definitions.php:248
+msgctxt "post type singular name"
+msgid "Hook"
+msgstr ""
+
+#: inc/devhub/definitions.php:249
+msgctxt "hook"
+msgid "Add New"
+msgstr ""
+
+#: inc/devhub/definitions.php:250
+msgid "Add New Hook"
+msgstr ""
+
+#: inc/devhub/definitions.php:251
+msgid "Edit Hook"
+msgstr ""
+
+#: inc/devhub/definitions.php:252
+msgid "New Hook"
+msgstr ""
+
+#: inc/devhub/definitions.php:253
+msgid "View Hook"
+msgstr ""
+
+#: inc/devhub/definitions.php:254
+msgid "View Hooks"
+msgstr ""
+
+#: inc/devhub/definitions.php:255
+msgid "Search Hooks"
+msgstr ""
+
+#: inc/devhub/definitions.php:256
+msgid "No hooks found."
+msgstr ""
+
+#: inc/devhub/definitions.php:257
+msgid "No hooks found in Trash."
+msgstr ""
+
+#: inc/devhub/definitions.php:258
+msgid "Parent Hook:"
+msgstr ""
+
+#: inc/devhub/definitions.php:259
+msgid "All Hooks"
+msgstr ""
+
+#: inc/devhub/definitions.php:260
+msgid "Hook Archives"
+msgstr ""
+
+#: inc/devhub/definitions.php:261
+msgid "Hook Attributes"
+msgstr ""
+
+#: inc/devhub/definitions.php:262
+msgid "Insert into hook"
+msgstr ""
+
+#: inc/devhub/definitions.php:263
+msgid "Uploaded to this hook"
+msgstr ""
+
+#: inc/devhub/definitions.php:264
+msgid "Filter hooks list"
+msgstr ""
+
+#: inc/devhub/definitions.php:265
+msgid "Hooks list navigation"
+msgstr ""
+
+#: inc/devhub/definitions.php:266
+msgid "Hooks list"
+msgstr ""
+
+#: inc/devhub/definitions.php:269, inc/devhub/definitions.php:273
+msgctxt "rewrite slug"
+msgid "hooks"
+msgstr ""
+
+#: inc/devhub/definitions.php:320, inc/devhub/definitions.php:351
+msgctxt "taxonomy general name"
+msgid "Files"
+msgstr ""
+
+#: inc/devhub/definitions.php:321, inc/devhub/definitions.php:379
+msgctxt "taxonomy general name"
+msgid "@package"
+msgstr ""
+
+#: inc/devhub/definitions.php:322, inc/devhub/definitions.php:386
+msgctxt "taxonomy general name"
+msgid "@since"
+msgstr ""
+
+#: inc/devhub/definitions.php:323, inc/devhub/definitions.php:394
+msgctxt "taxonomy general name"
+msgid "Namespaces"
+msgstr ""
+
+#: inc/devhub/definitions.php:352
+msgctxt "taxonomy singular name"
+msgid "File"
+msgstr ""
+
+#: inc/devhub/definitions.php:353
+msgid "Search Files"
+msgstr ""
+
+#: inc/devhub/definitions.php:354
+msgid "Popular Files"
+msgstr ""
+
+#: inc/devhub/definitions.php:355
+msgid "All Files"
+msgstr ""
+
+#: inc/devhub/definitions.php:356
+msgid "Parent File"
+msgstr ""
+
+#: inc/devhub/definitions.php:357
+msgid "Parent File:"
+msgstr ""
+
+#: inc/devhub/definitions.php:358
+msgid "Edit File"
+msgstr ""
+
+#: inc/devhub/definitions.php:359
+msgid "View File"
+msgstr ""
+
+#: inc/devhub/definitions.php:360
+msgid "Update File"
+msgstr ""
+
+#: inc/devhub/definitions.php:361
+msgid "Add New File"
+msgstr ""
+
+#: inc/devhub/definitions.php:362
+msgid "New File Name"
+msgstr ""
+
+#: inc/devhub/definitions.php:363
+msgid "Separate files with commas"
+msgstr ""
+
+#: inc/devhub/definitions.php:364
+msgid "Add or remove files"
+msgstr ""
+
+#: inc/devhub/definitions.php:365
+msgid "Choose from the most used files"
+msgstr ""
+
+#: inc/devhub/definitions.php:366
+msgid "No files found."
+msgstr ""
+
+#: inc/devhub/definitions.php:367
+msgid "No files"
+msgstr ""
+
+#: inc/devhub/definitions.php:368
+msgid "Files list navigation"
+msgstr ""
+
+#: inc/devhub/definitions.php:369
+msgid "Files list"
+msgstr ""
+
+#: inc/devhub/definitions.php:370
+msgctxt "files"
+msgid "Most Used"
+msgstr ""
+
+#: inc/devhub/definitions.php:371
+msgid "&larr; Back to Files"
+msgstr ""
+
+#: inc/devhub/definitions.php:375
+msgctxt "rewrite slug"
+msgid "files"
+msgstr ""
+
+#: inc/devhub/definitions.php:382
+msgctxt "rewrite slug"
+msgid "package"
+msgstr ""
+
+#: inc/devhub/definitions.php:389
+msgctxt "rewrite slug"
+msgid "since"
+msgstr ""
+
+#: inc/devhub/definitions.php:395
+msgctxt "taxonomy singular name"
+msgid "Namespace"
+msgstr ""
+
+#: inc/devhub/definitions.php:396
+msgid "Search Namespaces"
+msgstr ""
+
+#: inc/devhub/definitions.php:397
+msgid "Popular Namespaces"
+msgstr ""
+
+#: inc/devhub/definitions.php:398
+msgid "All Namespaces"
+msgstr ""
+
+#: inc/devhub/definitions.php:399
+msgid "Parent Namespace"
+msgstr ""
+
+#: inc/devhub/definitions.php:400
+msgid "Parent Namespace:"
+msgstr ""
+
+#: inc/devhub/definitions.php:401
+msgid "Edit Namespace"
+msgstr ""
+
+#: inc/devhub/definitions.php:402
+msgid "View Namespace"
+msgstr ""
+
+#: inc/devhub/definitions.php:403
+msgid "Update Namespace"
+msgstr ""
+
+#: inc/devhub/definitions.php:404
+msgid "Add New Namespace"
+msgstr ""
+
+#: inc/devhub/definitions.php:405
+msgid "New Namespace Name"
+msgstr ""
+
+#: inc/devhub/definitions.php:406
+msgid "Separate namespaces with commas"
+msgstr ""
+
+#: inc/devhub/definitions.php:407
+msgid "Add or remove namespaces"
+msgstr ""
+
+#: inc/devhub/definitions.php:408
+msgid "Choose from the most used namespaces"
+msgstr ""
+
+#: inc/devhub/definitions.php:409
+msgid "No namespaces found."
+msgstr ""
+
+#: inc/devhub/definitions.php:410
+msgid "No namespaces"
+msgstr ""
+
+#: inc/devhub/definitions.php:411
+msgid "Namespaces list navigation"
+msgstr ""
+
+#: inc/devhub/definitions.php:412
+msgid "Namespaces list"
+msgstr ""
+
+#: inc/devhub/definitions.php:413
+msgctxt "namespaces"
+msgid "Most Used"
+msgstr ""
+
+#: inc/devhub/definitions.php:414
+msgid "&larr; Back to Namespaces"
+msgstr ""
+
+#: inc/devhub/definitions.php:418
+msgctxt "rewrite slug"
+msgid "namespaces"
+msgstr ""
+
+#: inc/devhub/template-functions.php:427, inc/devhub/template-functions.php:512
+msgid "Use %s instead."
+msgstr ""
+
+#: inc/devhub/template-functions.php:443
+msgid "This class has been deprecated."
+msgstr ""
+
+#: inc/devhub/template-functions.php:446
+msgid "This trait has been deprecated."
+msgstr ""
+
+#: inc/devhub/template-functions.php:449
+msgid "This interface has been deprecated."
+msgstr ""
+
+#: inc/devhub/template-functions.php:452
+msgid "This function has been deprecated."
+msgstr ""
+
+#: inc/devhub/template-functions.php:455
+msgid "This method has been deprecated."
+msgstr ""
+
+#: inc/devhub/template-functions.php:458
+msgid "This hook has been deprecated."
+msgstr ""
+
+#: inc/devhub/template-functions.php:461
+msgid "This has been deprecated."
+msgstr ""
+
+#: inc/devhub/template-functions.php:518
+msgid "This function&#8217;s access is marked private. This means it is not intended for use by other plugin or theme developers, only in this plugin itself. It is listed here for completeness."
+msgstr ""
+
+#: inc/devhub/template-hooks.php:110
+msgid "Action Hook"
+msgstr ""
+
+#: inc/devhub/template-hooks.php:114
+msgid "Filter Hook"
+msgstr ""
+
+#: inc/devhub/template-hooks.php:117
+msgid "Action Hook (deprecated)"
+msgstr ""
+
+#: inc/devhub/template-hooks.php:120
+msgid "Filter Hook (deprecated)"
+msgstr ""
+
+#: inc/plugin-compat/wp-ajaxify-comments.php:29
+msgid "Torro DevHub already handles comment form submissions via AJAX out-of-the-box, so the plugin WP Ajaxify Comments conflicts with it and is not necessary. Please deactivate it."
+msgstr ""
+
+#: template-parts/content/comment.php:22
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: template-parts/content/comment.php:33
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: template-parts/content/comment.php:37, template-parts/content/pingback.php:14, template-parts/content/trackback.php:14
+msgid "Edit"
+msgstr ""
+
+#: template-parts/content/content-post.php:32, template-parts/content/content.php:32
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content/entry-footer-attachment.php:25, template-parts/content/entry-footer.php:23
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: template-parts/content/entry-footer-attachment.php:44, template-parts/content/entry-footer.php:42
+msgid "Edit<span class=\"screen-reader-text\"> %s</span>"
+msgstr ""
+
+#: template-parts/content/entry-meta.php:30
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: template-parts/content/entry-meta.php:42
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: template-parts/content/entry-terms-post.php:10, template-parts/content/entry-terms.php:34
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: template-parts/content/entry-terms-post.php:21, template-parts/content/entry-terms.php:28
+msgid "Posted in %s"
+msgstr ""
+
+#: template-parts/content/entry-terms-post.php:34, template-parts/content/entry-terms.php:31
+msgid "Tagged %s"
+msgstr ""
+
+#: template-parts/content/none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content/none.php:25
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content/none.php:38
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content/none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content/pingback.php:14
+msgid "Pingback:"
+msgstr ""
+
+#: template-parts/content/trackback.php:14
+msgid "Trackback:"
+msgstr ""
+
+#: template-parts/footer/footer-widgets.php:28
+msgid "Footer"
+msgstr ""
+
+#: template-parts/footer/site-info.php:12
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: template-parts/footer/site-info.php:14
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: template-parts/footer/site-info.php:19
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: template-parts/header/site-navigation.php:22
+msgid "Menu"
+msgstr ""
+
+#: template-parts/content/devhub/content.php:26, template-parts/content/devhub/template-changelog.php:26
+msgid "Description"
+msgstr ""
+
+#: template-parts/content/devhub/entry-footer.php:18
+msgid "Source:"
+msgstr ""
+
+#: template-parts/content/devhub/template-changelog.php:19, template-parts/content/devhub/template-changelog.php:22
+msgid "Changelog"
+msgstr ""
+
+#: template-parts/content/devhub/template-changelog.php:25
+msgid "Version"
+msgstr ""
+
+#: template-parts/content/devhub/template-description.php:31
+msgid "See also"
+msgstr ""
+
+#: template-parts/content/devhub/template-methods.php:19
+msgid "Methods"
+msgstr ""
+
+#: template-parts/content/devhub/template-methods.php:42
+msgid "deprecated"
+msgstr ""
+
+#: template-parts/content/devhub/template-params.php:18
+msgid "Parameters"
+msgstr ""
+
+#: template-parts/content/devhub/template-params.php:31
+msgid "(%s)"
+msgstr ""
+
+#: template-parts/content/devhub/template-params.php:36
+msgid "(Required)"
+msgstr ""
+
+#: template-parts/content/devhub/template-params.php:38
+msgid "(Optional)"
+msgstr ""
+
+#: template-parts/content/devhub/template-params.php:45
+msgid "Default value:"
+msgstr ""
+
+#: template-parts/content/devhub/template-related.php:25
+msgid "Related"
+msgstr ""
+
+#: template-parts/content/devhub/template-related.php:29
+msgid "Uses"
+msgstr ""
+
+#: template-parts/content/devhub/template-related.php:44
+msgid "Extends"
+msgstr ""
+
+#: template-parts/content/devhub/template-related.php:59
+msgid "Implements"
+msgstr ""
+
+#: template-parts/content/devhub/template-related.php:74
+msgid "Used By"
+msgstr ""
+
+#: template-parts/content/devhub/template-related.php:89
+msgid "Extended By"
+msgstr ""
+
+#: template-parts/content/devhub/template-related.php:104
+msgid "Implemented By"
+msgstr ""
+
+#: template-parts/content/devhub/template-return.php:18
+msgid "Return"
+msgstr ""
+
+#: template-parts/content/devhub/template-source.php:23
+msgid "Source"
+msgstr ""
+
+#: template-parts/content/devhub/template-source.php:26
+msgid "File:"
+msgstr ""
+
+#: template-parts/content/devhub/template-source.php:36
+msgid "Expand full source code"
+msgstr ""
+
+#: template-parts/content/devhub/template-source.php:37
+msgid "Collapse full source code"
+msgstr ""
+
+#: template-parts/content/devhub/template-source.php:41, template-parts/content/devhub/template-source.php:47
+msgid "View on GitHub"
+msgstr ""

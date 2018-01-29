@@ -1,0 +1,26 @@
+ul,
+ol {
+	margin: 0 0 $spacing_vertical;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: $spacing_horizontal;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 $padding_horizontal $padding_vertical;
+}

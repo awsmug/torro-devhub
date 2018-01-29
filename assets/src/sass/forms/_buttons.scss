@@ -1,0 +1,40 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.button {
+	padding: $padding_vertical $padding_horizontal;
+	color: $color__text-button;
+	background-color: $color__background-button;
+	border-radius: $border-radius;
+	border: 0;
+	text-decoration: none;
+	appearance: none;
+
+	&:hover,
+	&:focus {
+		background-color: $color__background-button-hover;
+	}
+
+	&.button-primary {
+		color: $color__text-button-primary;
+		background-color: $color__background-button-primary;
+
+		&:hover,
+		&:focus {
+			background-color: $color__background-button-primary-hover;
+		}
+	}
+
+	&.button-link {
+		color: $color__link;
+		background-color: transparent;
+		text-decoration: underline;
+
+		&:hover,
+		&:focus {
+			color: $color__link-hover;
+			background-color: transparent;
+		}
+	}
+}
