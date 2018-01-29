@@ -24,7 +24,13 @@
 
 <div id="page" class="site">
 	<header id="header" class="site-header">
-		<?php get_template_part( 'template-parts/header/site-branding' ); ?>
+		<div id="navbar" class="site-navbar">
+			<div class="site-navbar-inner">
+				<?php get_template_part( 'template-parts/header/site-branding' ); ?>
 
-		<?php get_template_part( 'template-parts/header/site-navigation' ); ?>
+				<?php get_template_part( 'template-parts/header/site-navigation' ); ?>
+			</div>
+		</div>
 	</header><!-- #header -->
+
+	<div id="content" class="site-content">

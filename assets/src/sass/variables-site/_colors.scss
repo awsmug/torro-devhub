@@ -15,6 +15,9 @@ $color__error: #dc3232;
 $color__error-light: #ffdcdc;
 
 $color__background-body: $color__white;
+$color__background-header: #d50c0c;
+$color__background-sidebar: #eee;
+$color__background-footer: #444;
 $color__background-screen: #f1f1f1;
 $color__background-button: #e6e6e6;
 $color__background-button-hover: darken($color__background-button, 8%);
@@ -37,6 +40,9 @@ $color__link: $color__primary;
 $color__link-visited: $color__link;
 $color__link-hover: darken($color__link, 8%);
 
+$color__border-header: transparent;
+$color__border-sidebar: $color__darkgray;
+$color__border-footer: transparent;
 $color__border-input: $color__lightgray;
 $color__border-input-focus: darken($color__border-input, 8%);
 $color__border-abbr: $color__black;

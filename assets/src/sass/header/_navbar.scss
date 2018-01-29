@@ -1,0 +1,64 @@
+.site-navbar {
+	position: relative;
+
+	.site-navbar-inner {
+		@include center-flex();
+		@include limit-width();
+
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.site-branding {
+		padding-top: $padding_vertical;
+		padding-bottom: $padding_vertical;
+	}
+
+	.main-navigation {
+		flex: 1;
+
+		ul.nav-menu {
+			justify-content: flex-end;
+
+			@media (max-width: ($site_breakpoint - 1)) {
+				position: absolute;
+				top: 100%;
+				right: 0;
+				left: 0;
+				z-index: 999;
+				margin-top: -1px;
+				background-color: $color__background-header;
+				border-bottom: 1px solid $color__border-header;
+			}
+		}
+	}
+
+	.site-badges {
+		display: none;
+
+		@media (min-width: 60rem) {
+			display: block;
+		}
+	}
+
+	body.has-fixed-navbar & {
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 999;
+		box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+	}
+
+	body.admin-bar.has-fixed-navbar & {
+		top: 32px;
+
+		@media (max-width: 782px) {
+			top: 46px;
+		}
+
+		@media (max-width: 600px) {
+			top: 0;
+		}
+	}
+}

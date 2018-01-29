@@ -5,7 +5,8 @@
 	@include text-center();
 	@include font-size(1);
 
-	margin-bottom: $spacing_vertical-big;
+	padding-top: $padding_vertical;
+	padding-bottom: $padding_vertical;
 
 	ul {
 		display: inline-block;

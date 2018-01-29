@@ -9,13 +9,5 @@
 
 ?>
 <div class="site-info">
-	<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'torro-devhub' ) ); ?>"><?php
-		/* translators: %s: CMS name, i.e. WordPress. */
-		printf( esc_html__( 'Proudly powered by %s', 'torro-devhub' ), 'WordPress' );
-	?></a>
-	<span class="sep"> | </span>
-	<?php
-		/* translators: 1: Theme name, 2: Theme author. */
-		printf( esc_html__( 'Theme: %1$s by %2$s.', 'torro-devhub' ), 'Torro DevHub', '<a href="http://developer.torro-forms.com">Felix Arntz</a>' );
-	?>
+	&copy; 2018 Torro Forms by Awesome UG - Germany
 </div><!-- .site-info -->

@@ -2,7 +2,8 @@
 	@include center-block();
 	@include limit-width();
 
-	margin-bottom: $spacing_vertical-big;
+	padding-top: $padding_vertical;
+	padding-bottom: $padding_vertical;
 
 	.widget-column {
 		@include horizontal-padding();

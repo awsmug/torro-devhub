@@ -91,8 +91,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 	Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 	/* harmony import */var __WEBPACK_IMPORTED_MODULE_0__skip_link_focus_fix__ = __webpack_require__(1);
 	/* harmony import */var __WEBPACK_IMPORTED_MODULE_1__navigation__ = __webpack_require__(2);
-	/* harmony import */var __WEBPACK_IMPORTED_MODULE_2__comment_form__ = __webpack_require__(3);
-	/* harmony import */var __WEBPACK_IMPORTED_MODULE_3__modals__ = __webpack_require__(4);
+	/* harmony import */var __WEBPACK_IMPORTED_MODULE_2__navbar__ = __webpack_require__(3);
+	/* harmony import */var __WEBPACK_IMPORTED_MODULE_3__comment_form__ = __webpack_require__(4);
+	/* harmony import */var __WEBPACK_IMPORTED_MODULE_4__modals__ = __webpack_require__(5);
 
 	window.themeData = window.themeData || {};
 
@@ -100,12 +101,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 		themeData.components = {
 			skipLinkFocusFix: new __WEBPACK_IMPORTED_MODULE_0__skip_link_focus_fix__["a" /* default */](),
 			navigation: new __WEBPACK_IMPORTED_MODULE_1__navigation__["a" /* default */]('site-navigation', themeData.navigation),
-			commentForm: new __WEBPACK_IMPORTED_MODULE_2__comment_form__["a" /* default */]('commentform', 'comments', themeData.comments),
-			modals: new __WEBPACK_IMPORTED_MODULE_3__modals__["a" /* default */]('.modal')
+			navbar: new __WEBPACK_IMPORTED_MODULE_2__navbar__["a" /* default */]('navbar'),
+			commentForm: new __WEBPACK_IMPORTED_MODULE_3__comment_form__["a" /* default */]('commentform', 'comments', themeData.comments),
+			modals: new __WEBPACK_IMPORTED_MODULE_4__modals__["a" /* default */]('.modal')
 		};
 
 		themeData.components.skipLinkFocusFix.initialize();
 		themeData.components.navigation.initialize();
+		themeData.components.navbar.initialize();
 		themeData.components.commentForm.initialize();
 		themeData.components.modals.initialize();
 	})(window.themeData);
@@ -418,6 +421,65 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 	"use strict";
 	/**
+  * File navbar.js.
+  *
+  * Handles the fixed navigation bar.
+  */
+
+	var Navbar = function () {
+		function Navbar(containerId, options) {
+			_classCallCheck(this, Navbar);
+
+			this.container = document.getElementById(containerId);
+			this.options = options || {};
+		}
+
+		_createClass(Navbar, [{
+			key: 'initialize',
+			value: function initialize() {
+				if (!this.container) {
+					return;
+				}
+
+				this.initializeFixedNavbar();
+			}
+		}, {
+			key: 'initializeFixedNavbar',
+			value: function initializeFixedNavbar() {
+				var container = this.container;
+				var containerOffset = container.offsetTop;
+
+				function fixNavbar() {
+					var currentOffset = document.body.classList.contains('admin-bar') && document.body.clientWidth <= 600 ? containerOffset + 46 : containerOffset;
+
+					if (window.scrollY >= currentOffset) {
+						document.body.style.paddingTop = container.offsetHeight + 'px';
+						document.body.classList.add('has-fixed-navbar');
+					} else {
+						document.body.style.paddingTop = 0;
+						document.body.classList.remove('has-fixed-navbar');
+					}
+				}
+
+				window.addEventListener('scroll', fixNavbar);
+				window.addEventListener('resize', fixNavbar);
+			}
+		}]);
+
+		return Navbar;
+	}();
+
+	/* harmony default export */
+
+	__webpack_exports__["a"] = Navbar;
+
+	/***/
+},
+/* 4 */
+/***/function (module, __webpack_exports__, __webpack_require__) {
+
+	"use strict";
+	/**
   * File comments.js.
   *
   * Handles comment submission via AJAX.
@@ -682,7 +744,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 	/***/
 },
-/* 4 */
+/* 5 */
 /***/function (module, __webpack_exports__, __webpack_require__) {
 
 	"use strict";

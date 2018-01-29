@@ -4,7 +4,8 @@
 	@include horizontal-padding();
 	@include text-center();
 
-	margin-bottom: $spacing_vertical;
+	padding-top: $padding_vertical;
+	padding-bottom: $padding_vertical;
 
 	ul {
 		display: inline-block;

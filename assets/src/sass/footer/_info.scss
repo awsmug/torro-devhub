@@ -3,4 +3,7 @@
 	@include limit-width();
 	@include horizontal-padding();
 	@include text-center();
+
+	padding-top: $padding_vertical;
+	padding-bottom: $padding_vertical;
 }
