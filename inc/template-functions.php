@@ -99,6 +99,10 @@ function torro_devhub_display_post_navigation( $post = null ) {
 		return false;
 	}
 
+	if ( in_array( $post->post_type, torro_devhub_devhub_get_post_types(), true ) ) {
+		return false;
+	}
+
 	$post_type_object = get_post_type_object( $post->post_type );
 	if ( ! $post_type_object ) {
 		return false;
@@ -122,6 +126,10 @@ function torro_devhub_display_post_comments( $post = null ) {
 	}
 
 	$post_type = $post->post_type;
+
+	if ( in_array( $post_type, torro_devhub_devhub_get_post_types(), true ) ) {
+		return false;
+	}
 
 	return post_type_supports( $post_type, 'comments' ) && ( comments_open( $post ) || get_comments_number( $post ) );
 }

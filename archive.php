@@ -34,7 +34,13 @@ get_header();
 
 			endwhile;
 
-			the_posts_navigation();
+			$args = array();
+			if ( is_tax( torro_devhub_devhub_get_taxonomies() ) || is_post_type_archive( torro_devhub_devhub_get_post_types() ) ) {
+				$args['prev_text'] = __( 'See more', 'torro-devhub' );
+				$args['next_text'] = __( 'Go back', 'torro-devhub' );
+			}
+
+			the_posts_navigation( $args );
 
 		else :
 
