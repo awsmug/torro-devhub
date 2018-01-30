@@ -116,8 +116,8 @@
 				top: 100%;
 				left: -999em;
 				z-index: 99999;
-				background-color: #fff;
-				border: 1px solid $color__white;
+				background-color: $color__background-header;
+				border: 1px solid darken($color__background-header, 8%);
 
 				a {
 					padding: $padding_vertical $padding_horizontal;

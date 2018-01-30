@@ -1779,6 +1779,15 @@ body {
 	line-height: 1.4;
 }
 
+.custom-logo-link,
+.custom-logo {
+	display: block;
+}
+
+.custom-logo {
+	max-width: 320px;
+}
+
 /* -------------------------------------------------------------
 ## Main Navigation
 ------------------------------------------------------------- */
@@ -1913,8 +1922,8 @@ body {
 		z-index: 99999;
 		display: block;
 		padding: 0;
-		background-color: #fff;
-		border: 1px solid #fff;
+		background-color: #d50c0c;
+		border: 1px solid #ae0a0a;
 	}
 	.main-navigation ul.nav-menu ul a {
 		width: 16em;
