@@ -1582,7 +1582,8 @@ body.no-sidebar .site-content .site-sidebar {
 }
 
 @media (min-width: 48rem) {
-	.site-content {
+	body.left-sidebar .site-content,
+	body.right-sidebar .site-content {
 		align-items: stretch;
 		-ms-flex-align: stretch;
 		-ms-flex-direction: row;

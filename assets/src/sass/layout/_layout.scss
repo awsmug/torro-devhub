@@ -16,13 +16,13 @@
 	}
 
 	@media (min-width: $site_breakpoint) {
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: stretch;
-
 		body.left-sidebar &,
 		body.right-sidebar & {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: stretch;
+
 			.site-main {
 				flex: 2;
 			}
