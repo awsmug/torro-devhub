@@ -26,7 +26,7 @@ get_header();
 
 			?>
 			<div class="page-search-form">
-				<p><?php esc_html_e( 'Enter the name of a function, method, hook, class, trait or interface to learn more about it.', 'torro-devhub' ); ?></p>
+				<p><?php esc_html_e( 'Enter the name of a function, method, hook, class, trait or interface to learn more.', 'torro-devhub' ); ?></p>
 				<?php get_search_form(); ?>
 			</div>
 			<?php
