@@ -1305,6 +1305,16 @@ body.no-sidebar .post-password-form {
 	float: left;
 }
 
+.page-search-form {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body.no-sidebar .page-search-form {
+	max-width: 20rem;
+}
+
 .page-login-form {
 	display: block;
 	margin-left: auto;

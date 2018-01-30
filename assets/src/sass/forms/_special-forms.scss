@@ -51,6 +51,14 @@ button.search-submit {
 	}
 }
 
+.page-search-form {
+	@include center-block();
+
+	body.no-sidebar & {
+		max-width: 20rem;
+	}
+}
+
 .page-login-form {
 	@include center-block();
 
