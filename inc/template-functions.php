@@ -253,6 +253,8 @@ function torro_devhub_allow_display_sidebar() {
 		$result = false;
 	} elseif ( is_page_template( 'templates/full-width.php' ) ) {
 		$result = false;
+	} elseif ( is_page_template( 'templates/reference.php' ) ) {
+		$result = false;
 	}
 
 	/**
