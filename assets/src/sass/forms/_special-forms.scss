@@ -55,7 +55,7 @@ button.search-submit {
 	@include center-block();
 
 	body.no-sidebar & {
-		max-width: 20rem;
+		max-width: $site_maxwidth-text;
 	}
 }
 
