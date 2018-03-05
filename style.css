@@ -2238,6 +2238,21 @@ body.no-sidebar
 	background: #21759b;
 }
 
+.featured-tutorials,
+.latest-tutorials {
+	display: block;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	border-bottom: 1px solid #ccc;
+}
+
+body.no-sidebar .featured-tutorials,
+body.no-sidebar
+.latest-tutorials {
+	max-width: 40rem;
+}
+
 /* -------------------------------------------------------------
 ## Comments
 ------------------------------------------------------------- */

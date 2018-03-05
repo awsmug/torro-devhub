@@ -11,13 +11,14 @@ global $is_reference_page;
 
 $unique_id = esc_attr( uniqid( 'search-form-' ) );
 
-$post_types = torro_devhub_devhub_get_post_types();
-$taxonomies = torro_devhub_devhub_get_taxonomies();
+$devhub_post_types = torro_devhub_devhub_get_post_types( false, true );
+$devhub_taxonomies = torro_devhub_devhub_get_taxonomies( false, true );
 
-$active_post_types = ( ! empty( $_GET['post_type'] ) && is_array( $_GET['post_type'] ) ) ? $_GET['post_type'] : array();
+$active_post_types        = ( ! empty( $_GET['post_type'] ) && is_array( $_GET['post_type'] ) ) ? $_GET['post_type'] : array();
+$active_devhub_post_types = array_intersect( $active_post_types, $devhub_post_types );
 
 $is_reference = false;
-if ( ! empty( $is_reference_page ) || ! empty( $active_post_types ) || ! empty( $_GET['reference'] ) || is_singular( $post_types ) || is_post_type_archive( $post_types ) || is_tax( $taxonomies ) ) {
+if ( ! empty( $is_reference_page ) || ! empty( $active_devhub_post_types ) || is_singular( $devhub_post_types ) || is_post_type_archive( $devhub_post_types ) || is_tax( $devhub_taxonomies ) ) {
 	$is_reference = true;
 }
 
@@ -32,7 +33,7 @@ if ( ! empty( $is_reference_page ) || ! empty( $active_post_types ) || ! empty( 
 		<div class="search-post-type">
 			<fieldset>
 				<legend><?php esc_html_e( 'Filter by type:', 'torro-devhub' ); ?></legend>
-				<?php foreach ( torro_devhub_devhub_get_post_types( true, true ) as $post_type => $label ) : ?>
+				<?php foreach ( torro_devhub_devhub_get_post_type_labels( $devhub_post_types ) as $post_type => $label ) : ?>
 					<label>
 						<input type="checkbox" name="post_type[]" value="<?php echo esc_attr( $post_type ); ?>"<?php echo in_array( $post_type, $active_post_types, true ) ? ' checked' : ''; ?>>
 						<?php echo esc_html( $label ); ?>
@@ -41,6 +42,10 @@ if ( ! empty( $is_reference_page ) || ! empty( $active_post_types ) || ! empty( 
 			</fieldset>
 		</div>
 	<?php elseif ( ! empty( $is_reference ) ) : ?>
-		<input type="hidden" name="reference" value="1">
+		<?php foreach ( $devhub_post_types as $post_type ) : ?>
+			<input type="hidden" name="post_type[]" value="<?php echo esc_attr( $post_type ); ?>">
+		<?php endforeach; ?>
+	<?php elseif ( is_post_type_archive( 'ct_tutorial' ) || is_front_page() ) : ?>
+		<input type="hidden" name="post_type[]" value="ct_tutorial">
 	<?php endif; ?>
 </form>

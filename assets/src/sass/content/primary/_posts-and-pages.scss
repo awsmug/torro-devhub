@@ -47,3 +47,15 @@
 		background: $color__background-media-time;
 	}
 }
+
+.featured-tutorials,
+.latest-tutorials {
+	@include center-block();
+
+	margin-bottom: $spacing_vertical;
+	border-bottom: 1px solid #ccc;
+
+	body.no-sidebar & {
+		max-width: $site_maxwidth-text;
+	}
+}
