@@ -850,6 +850,31 @@ dd {
 	margin: 0 1rem 0.75rem;
 }
 
+ul.inline-list {
+	display: inline;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+ul.inline-list li {
+	display: inline;
+}
+
+ul.inline-list li a {
+	padding: 0 1rem;
+	border-right: 1px solid #ccc;
+}
+
+ul.inline-list li:first-child a {
+	padding-right: 0;
+	border-right: 0;
+}
+
+ul.inline-list li:last-child a {
+	padding-left: 0;
+}
+
 img {
 	height: auto;
 	/* Make sure images are scaled correctly. */
@@ -1283,6 +1308,10 @@ input[type="search"].search-field {
 	border: 1px solid #e6e6e6;
 	border-top-left-radius: 0;
 	border-bottom-left-radius: 0;
+}
+
+.page-search-form input[type="search"].search-field {
+	width: 90%;
 }
 
 button.search-submit {

@@ -6,6 +6,10 @@ input[type="search"].search-field {
 	border: 1px solid $color__background-button;
 	border-top-right-radius: 0;
 	border-bottom-right-radius: 0;
+
+	.page-search-form & {
+		width: 90%;
+	}
 }
 
 button.search-submit {
