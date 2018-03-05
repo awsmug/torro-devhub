@@ -17,7 +17,7 @@
 
 		<?php get_template_part( 'template-parts/content/devhub/template-summary', get_post_type() ); ?>
 
-		<?php if ( is_singular() ) : ?>
+		<?php if ( is_singular( get_post_type() ) ) : ?>
 			<div class="devhub-content-wrap">
 				<div class="devhub-content-sidebar">
 

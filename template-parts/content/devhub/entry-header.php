@@ -17,7 +17,7 @@
 		<?php echo torro_devhub_devhub_get_namespace( null, true, true ); // WPCS: XSS OK. ?>
 	<?php endif; ?>
 
-	<?php if ( is_singular() ) : ?>
+	<?php if ( is_singular( get_post_type() ) ) : ?>
 		<h1 class="signature"><?php echo torro_devhub_devhub_get_signature(); // WPCS: XSS OK. ?></h1>
 	<?php else : ?>
 		<h2><a href="<?php the_permalink(); ?>"><?php echo get_the_title(); // WPCS: XSS OK. ?></a></h2>
