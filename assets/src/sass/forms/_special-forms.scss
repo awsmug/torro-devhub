@@ -21,6 +21,19 @@ button.search-submit {
 	border-bottom-left-radius: 0;
 }
 
+.search-post-type {
+	margin-top: (0.5 * $spacing_vertical);
+
+	label {
+		display: inline;
+		margin-right: (0.5 * $padding_horizontal);
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
 .no-svg .search-submit .screen-reader-text {
 	@include override-screen-reader-text();
 }

@@ -1292,6 +1292,19 @@ button.search-submit {
 	border-top-left-radius: 0;
 }
 
+.search-post-type {
+	margin-top: 0.5em;
+}
+
+.search-post-type label {
+	display: inline;
+	margin-right: 0.5rem;
+}
+
+.search-post-type label:last-child {
+	margin-right: 0;
+}
+
 .no-svg .search-submit .screen-reader-text {
 	position: relative !important;
 	width: auto;
