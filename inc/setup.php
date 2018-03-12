@@ -115,6 +115,9 @@ add_action( 'after_setup_theme', 'torro_devhub_register_nav_menus', 11 );
  * @since 1.0.0
  */
 function torro_devhub_register_widget_areas() {
+	register_widget( 'Torro_DevHub_Widget_Featured_Tutorials' );
+	register_widget( 'Torro_DevHub_Widget_Latest_Tutorials' );
+
 	register_sidebar( array(
 		'name'          => __( 'Primary Sidebar', 'torro-devhub' ),
 		'id'            => 'primary',

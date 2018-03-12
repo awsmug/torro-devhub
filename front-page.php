@@ -72,7 +72,7 @@ $latest_tutorials_query = new WP_Query( array(
 					while( $latest_tutorials_query->have_posts() ) : $latest_tutorials_query->the_post();
 						?>
 						<li>
-							<a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+							<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 							<small>(<span class="screen-reader-text"><?php esc_html_e( 'published on', 'torro-devhub' ); ?> </span><?php echo get_the_date(); ?>)</small>
 						</li>
 						<?php

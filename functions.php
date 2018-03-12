@@ -61,3 +61,9 @@ require get_template_directory() . '/inc/devhub.php';
  * Plugin compatibility.
  */
 require get_template_directory() . '/inc/plugin-compat.php';
+
+/**
+ * Widgets.
+ */
+require get_template_directory() . '/inc/widgets/class-torro-devhub-widget-featured-tutorials.php';
+require get_template_directory() . '/inc/widgets/class-torro-devhub-widget-latest-tutorials.php';
